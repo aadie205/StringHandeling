@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
  * @author Night King
  *
  */
-public class ConcatMethod{
+public class FindLengthWithoutPDMethod{
 
 	public static void main(String[] args) {
 		String s="Hello World!";
@@ -24,6 +24,7 @@ public class ConcatMethod{
 			}
 		}catch(StringIndexOutOfBoundsException e) {
 			System.out.println(count);
+			
 		}
 	
 	//Approach 3. By using toCharArray()

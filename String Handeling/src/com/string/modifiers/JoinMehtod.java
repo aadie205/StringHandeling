@@ -13,7 +13,7 @@ import java.util.List;
 public class JoinMehtod {
 
 	public static void main(String[] args) {
-	//2. join() from java 1.8
+	// join() from java 1.8
 		
 		String s1=String.join("-", "a","b","c","d");
 		String s2=String.join("", "a","b","c","d");
