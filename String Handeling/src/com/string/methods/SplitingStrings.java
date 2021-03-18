@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 3. If the given argument string has special meaning
  * as per regex the current string will be with the matched
  * characters.
- * 		Ex: "." --> all characters are considered as delimeter
+ * 		Ex: "." --> all characters are considered as delimiter
  * 					finally we will get empty string
  * 			"[abc]"--> string is split by the characters a,b and c.
  * 			"[a-z]"--> string is split by the any letter
