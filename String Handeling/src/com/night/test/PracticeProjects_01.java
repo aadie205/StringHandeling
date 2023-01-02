@@ -6,7 +6,11 @@ import java.util.Scanner;
 * Read user name from keyboard
 * If user entered empty string as user name
 * 		print error message "Enter User-name"
+<<<<<<< HEAD
 *	Else
+=======
+*	 Else
+>>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 *		Print "Welcome to NIT"
 **/
 

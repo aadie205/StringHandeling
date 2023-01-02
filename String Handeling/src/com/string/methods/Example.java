@@ -17,6 +17,10 @@ public class Example{
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
+=======
+//		return super.hashCode();
+>>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 		return x;
 	}
 	

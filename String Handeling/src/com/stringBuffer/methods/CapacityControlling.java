@@ -50,7 +50,11 @@ public class CapacityControlling {
 		
 		System.out.println("capacity: "+sb1.capacity());
 		System.out.println("size: "+sb1.length());
+<<<<<<< HEAD
 		System.out.println("valueOf() sb1: "+String.valueOf(sb1.charAt(3)).equals("\0"));
+=======
+		System.out.println("sb1: "+String.valueOf(sb1.charAt(3)).equals("\0"));
+>>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 		System.out.println();
 		
 		sb1.trimToSize();

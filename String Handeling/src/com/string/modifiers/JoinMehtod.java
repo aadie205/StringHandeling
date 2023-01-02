@@ -13,7 +13,11 @@ import java.util.List;
 public class JoinMehtod {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 	//2. join() from java 1.8
+=======
+	// join() from java 1.8
+>>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 		
 		String s1=String.join("-", "a","b","c","d");
 		String s2=String.join("", "a","b","c","d");

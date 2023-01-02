@@ -27,6 +27,10 @@ public class DeleteMethod {
 		System.out.println("SB chars: "+sb4);
 		System.out.println();
 		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 //		sb4.deleteCharAt(20);
 //		System.out.println("SB chars: "+sb3);
 //		System.out.println();
