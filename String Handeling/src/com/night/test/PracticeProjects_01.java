@@ -6,7 +6,7 @@ import java.util.Scanner;
 * Read user name from keyboard
 * If user entered empty string as user name
 * 		print error message "Enter User-name"
-*	Else
+*	 Else
 *		Print "Welcome to NIT"
 **/
 
