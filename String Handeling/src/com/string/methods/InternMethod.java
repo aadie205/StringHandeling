@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class InternMethod {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 		/*		String s1="a";	//one obj created
 				String s2="a"; //No objects created
 				System.out.println(s1==s2);
@@ -65,30 +65,28 @@ public class InternMethod {
 		
 		System.out.println(s7==s8);
 		System.out.println();
-		
-		
-	}
+	
 
-=======
-		String s1="a";	//one obj created
-		String s2="a"; //No objects created
-		System.out.println("s1==s2: "+(s1==s2));
 
-		String s3=new String("b");	//two obj created
-		String s4=new String("b");	//one obj created
-		System.out.println("s3==s4: "+(s3==s4));
+		String s11="a";	//one obj created
+		String s22="a"; //No objects created
+		System.out.println("s11==s22: "+(s1==s2));
 
-		String s5=s1.concat(s2);
-		String s6=s1.concat(s2);
+		String s33=new String("b");	//two obj created
+		String s44=new String("b");	//one obj created
+		System.out.println("s33==s44: "+(s3==s4));
 
-		System.out.println("s5==s6: "+(s5==s6));
+		String s55=s1.concat(s22);
+		String s66=s1.concat(s22);
+
+		System.out.println("s5==s6: "+(s55==s66));
 		System.out.println();
 
-		String s7=s1+s2;
-		String s8=s1+s2;
+		String s77=s11+s22;
+		String s88=s11+s22;
 
-		System.out.println("s7==s8: "+(s7==s8));
-		System.out.println("s7.equals(s8): "+(s7.equals(s8)));
+		System.out.println("s77==s88: "+(s77==s88));
+		System.out.println("s77.equals(s88): "+(s77.equals(s88)));
 		System.out.println();
 
 		Scanner scn=new Scanner(System.in);
@@ -101,9 +99,9 @@ public class InternMethod {
 		System.out.println("hello");
 
 		
-		String s11="H ";			
-		String s12=s11.intern();	//used for adding and retrieving a string object to and from pool.
-		System.out.println("s11==s12: "+(s11==s12));
+		String s111="H ";			
+		String s12=s111.intern();	//used for adding and retrieving a string object to and from pool.
+		System.out.println("s11==s12: "+(s111==s12));
 		System.out.println();
 		
 		String s13=new String("NIT");
@@ -125,5 +123,5 @@ public class InternMethod {
 		
 		scn.close();
 	}
->>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
+
 }

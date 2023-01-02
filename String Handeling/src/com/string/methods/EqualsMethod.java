@@ -3,7 +3,7 @@ package com.string.methods;
 public class EqualsMethod {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 		String s15="Hari";
 		System.out.println(s15=="Hari");
 		System.out.println(s15.equals("Hari"));
@@ -42,7 +42,7 @@ public class EqualsMethod {
 		System.out.println(s21.contentEquals(sb1));
 		System.out.println(s21.contentEquals(sb2));
 		System.out.println(s21.contentEquals(s21));
-=======
+
 		String s1="Hari";
 		System.out.println(s1=="Hari");
 		System.out.println(s1.equals("Hari"));
@@ -55,10 +55,10 @@ public class EqualsMethod {
 		System.out.println(s2.equalsIgnoreCase("HARI"));
 		System.out.println();
 		
-		char[] ch= {'1'};
+		char[] ch4= {'1'};
 		String s3="1";
-//		System.out.println(ch==s17);
-		System.out.println(s3.equals(ch));
+//		System.out.println(ch4==s17);
+		System.out.println(s3.equals(ch4));
 		System.out.println();
 		
 		String s4="a";
@@ -70,22 +70,21 @@ public class EqualsMethod {
 		System.out.println();
 		
 		String s6="abc";
-		StringBuffer sb1=new StringBuffer("abc");
-		StringBuilder sb2=new StringBuilder("abc");
+		StringBuffer sb11=new StringBuffer("abc");
+		StringBuilder sb22=new StringBuilder("abc");
 		
-//		System.out.println(sb2==sb1);
-		System.out.println(s6.equals(sb1));
-		System.out.println(s6.equals(sb2));
-		System.out.println(sb1.equals(sb2));
+//		System.out.println(sb22==sb11);
+		System.out.println(s6.equals(sb11));
+		System.out.println(s6.equals(sb22));
+		System.out.println(sb11.equals(sb22));
 		
-		System.out.println(s6.contentEquals(sb1));
-		System.out.println(s6.contentEquals(sb2));
+		System.out.println(s6.contentEquals(sb11));
+		System.out.println(s6.contentEquals(sb22));
 		System.out.println(s6.contentEquals(s6));
->>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 		System.out.println();
 		
 		StringBuffer sb3=new StringBuffer("abc");
-		System.out.println(sb1.equals(sb3));
+		System.out.println(sb11.equals(sb3));
 		System.out.println();
 
 	}

@@ -5,7 +5,7 @@ public class ComparingStringsLexicographically {
 
 
 		//Comparing Strings lexicographically. 
-<<<<<<< HEAD
+
 		String s22="abc";
 		String s23="abc";
 		
@@ -22,7 +22,7 @@ public class ComparingStringsLexicographically {
 		System.out.println(s22.compareToIgnoreCase(s24));
 
 		System.out.println(s22.compareTo("ab"));
-=======
+
 		String s1="abc";
 		String s2="abc";
 
@@ -46,8 +46,6 @@ public class ComparingStringsLexicographically {
 		System.out.println(s1.equals(s4));
 		
 		
-		
->>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
 
 	}
 }
