@@ -3,7 +3,7 @@ package com.string.modifiers;
 public class ReplaceMethod {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 /**
  *  	public String replace(char oldch, char newch)
  *  	public String replace(CharSequence sc1, CharSequence cs2)
@@ -20,7 +20,7 @@ public class ReplaceMethod {
 		System.out.println(s.replaceFirst("[Hari]","^"));
 		System.out.println(s.replaceFirst(".", "^"));
 		System.out.println(s.replaceFirst("a", "^"));
-*/
+
 		String s1="abc abc abc";
 		System.out.println(s1);
 		
@@ -81,8 +81,8 @@ public class ReplaceMethod {
 		System.out.println();
 		
 		
-		
-=======
+*/		
+
 	/**
 	 * public String replace(char oldch, char newch) 
 	 * public String replace(CharSequence sc1, CharSequence cs2) 
@@ -161,7 +161,7 @@ public class ReplaceMethod {
 		System.out.println(s17 == s18);
 		System.out.println();
 
->>>>>>> branch 'master' of https://github.com/aadie205/StringHandeling.git
+
 	}
 
 }
